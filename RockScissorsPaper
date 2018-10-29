@@ -12,6 +12,9 @@ public class RockScissorsPaper {
 
 		com = (int)(Math.random() * 3) + 1;//1,2,3,중 하나가 com에 저장됨
 		
+		//  0.0 <= Math.random() < 1.0
+		
+		
 		System.out.println("당신은" + user + "입니다.");
 		System.out.println("컴퓨터는"+com+"입니다.");
 		
