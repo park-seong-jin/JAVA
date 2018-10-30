@@ -7,6 +7,7 @@ public class Test {
 		int answer = 0;
 		
 		answer = (int)(Math.random() * 100 +1);//1~100사이의 임의의 수를 저장
+			//math.random() 0.00~ 0.99 사이의 값
 		Scanner sc = new Scanner(System.in);
 		
 		do{
