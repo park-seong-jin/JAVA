@@ -1,0 +1,27 @@
+ import java.util.Scanner;
+
+public class Test {
+	public static void main(String[]args) {
+		//버블정렬을 해라 
+		int [] arr = new int[] {1,7,9,3,5,8,0,2,4,6};
+		int temp ;
+		for(int i = 0 ; i < arr.length;i++) {
+		 
+			System.out.print("["+i+"]=" + arr[i]);
+		}
+		System.out.println();
+		for(int j = 0 ;j <arr.length-1;j++) {
+		for(int i = 0 ; i < arr.length-1;i++) {
+			if(arr[i]>arr[i+1]) {
+				temp = arr[i+1];
+				arr[i+1] = arr[i];
+				arr[i] = temp;	
+			}
+		}
+		for(int i = 0 ; i <arr.length;i++) {
+			System.out.print("["+i+"]=" + arr[i]);
+		}
+		System.out.println();
+		}
+	}//main문 끝
+}
